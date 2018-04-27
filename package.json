@@ -1,5 +1,5 @@
 {
-  "name": "source-map-decoder",
+  "name": "@bengourley/source-map-decoder",
   "version": "1.0.0-0",
   "description": "Parse a source map and output the data in a way that makes sense to humans",
   "main": "decode.js",
