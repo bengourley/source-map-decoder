@@ -1,0 +1,28 @@
+{
+  "name": "source-map-decoder",
+  "version": "0.0.0",
+  "description": "Parse a source map and output the data in a way that makes sense to humans",
+  "main": "decode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "decode-source-map": "bin/decode-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gist.github.com/c3c62e41c9b579ecc1d51e9d9eb8b9d2.git"
+  },
+  "author": "Ben Gourley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengourley/source-map-decoder/issues"
+  },
+  "homepage": "git@github.com:bengourley/source-map-decoder.git",
+  "dependencies": {
+    "vlq": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}

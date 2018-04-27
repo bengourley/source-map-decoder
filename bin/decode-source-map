@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const SourceMapDecoder = require('../decode')
+const decoder = new SourceMapDecoder(out => process.stdout.write(out))
+process.stdin.pipe(decoder)
