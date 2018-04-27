@@ -1,4 +1,4 @@
-# source-map-decoder
+# @bengourley/source-map-decoder
 
 Parse a source map and output the data in a way that makes sense to humans
 
@@ -29,7 +29,7 @@ It reads a source map, and outputs an object with a similar structure, replacing
 ## Installation
 
 ```
-npm i -g source-map-decoder
+npm i -g @bengourley/source-map-decoder
 ```
 
 ## Usage
